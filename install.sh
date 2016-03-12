@@ -1,5 +1,4 @@
 #!/bin/bash
-# base configuration nicked from github.com/limetech/dockerapp-plex
 # Configure user nobody to match unRAID's settings
 usermod -u 99 nobody
 usermod -g 100 nobody
