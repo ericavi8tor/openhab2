@@ -14,8 +14,8 @@ apt-get -q update
 
 # Set Timezone
 apt-get install -y ntp
-echo 'server 0.uk.pool.ntp.org' > /etc/ntp.conf
-echo 'Europe/London' > /etc/timezone
+echo 'server 0.us.pool.ntp.org' > /etc/ntp.conf
+echo 'America/New_York' > /etc/timezone
 
 # Install Java 8
 apt-get purge -qy openjdk*
