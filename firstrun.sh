@@ -17,4 +17,4 @@ fi
 # Remove any lock files
 # rm -f /var/lock/LCK.*
       
-/etc/init.d/openHAB start
+/etc/init.d/openHAB-service start
